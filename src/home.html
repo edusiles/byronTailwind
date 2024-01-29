@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="./output.css" rel="stylesheet">
+      <title>Home Page</title>
+   </head>
+   <body class="bg-gray-50">
+
+      <!-- Header -->
+      <div>
+         <div class="container mx-auto px-4 h-24 flex items-center">
+            <div class="font-black">
+               LOGO
+            </div>
+            
+            <ul class="ml-auto flex items-center space-x-4">
+               <li>
+                  <a href="" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Como reservar</a>
+               </li>
+               <li>
+                  <a href="" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Sobre nós</a>
+               </li>
+               <li>
+                  <a href=""class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Informações</a>
+               </li>
+               <li>
+                  <a href="" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Contato</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+      <!-- Banner -->
+      <div class="bg-no-repeat bg-cover bg-center bg-[url('./img/capa-hotel-1.png')] h-96">
+         <div class="container mx-auto px-4 h-full flex items-center justify-center ">
+
+            <div class="backdrop-opacity-10 backdrop-blur-lg bg-black/40 p-2 rounded-md" >
+               <div class="p-4 text-center">
+                  <h1 class="text-gray-200 text-3xl mb-1">Onde você quer ir?</h1>
+                  <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts.</p>
+               </div>
+
+               <div class="mt-7">
+                  <form class="space-x-4">
+                     <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                        <option value="">
+                           Escolha o estado
+                        </option>
+                     </select>
+
+                     <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                        <option value="">
+                           Escolha a cidade
+                        </option>
+                     </select>
+
+                     <button class="inline-flex items-center text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-2"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
+                        Pesquisar resorts
+                     </button>
+                  </form>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </body>
+</html>

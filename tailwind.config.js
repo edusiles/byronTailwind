@@ -11,6 +11,9 @@ module.exports = {
           300: '#6d2487',
           400: '#331040'
         }
+      },
+      backgroundImage: {
+        'hotel-cover': "url('./src/img/capa-hotel-1.png')"
       }
     },
   },
